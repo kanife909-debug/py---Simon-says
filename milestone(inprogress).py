@@ -65,14 +65,14 @@ while True:
 
                 name = input("Enter your name: ")
 
-                setHighScore(name, str(round))
+                setHighScore(name, round)
                 break
             else:
                 clear()
                 print("Game over")
 
                 showHighScore()
-                print("Score:",round)
+                
                 break
 
 # 

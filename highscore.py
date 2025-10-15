@@ -13,5 +13,5 @@ def setHighScore(name, score):
 
 
 record = getHighScore()
-highname = record[100]
+highname = record[0]
 highscore = int(record[1])
