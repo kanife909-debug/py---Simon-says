@@ -65,7 +65,7 @@ while True:
 
                 name = input("Enter your name: ")
 
-                setHighScore(name, round)
+                setHighScore(name, str(round))
                 break
             else:
                 clear()
@@ -75,7 +75,7 @@ while True:
                 
                 break
 
-# 
+print("pain")
 
 
 
